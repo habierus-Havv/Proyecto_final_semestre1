@@ -1,20 +1,13 @@
 import tkinter as tk
 import random
 
-# variables globales que necesito en todo el programa
-n = 5
-turnos_totales = 3
-matriz = []
-matriz_usada = []
-jugador1 = ""
-jugador2 = ""
-turno_actual = 1
-ronda_actual = 1
-puntos1 = 0
-puntos2 = 0
+n = 5,turnos_totales = 3
+matriz = [],matriz_usada = []
+jugador1 = "",jugador2 = ""
+turno_actual = 1,ronda_actual = 1
+puntos1 = 0,puntos2 = 0
 seleccion_bloqueada = False
-fila_sel = 0
-col_sel = 0
+fila_sel = 0,col_sel = 0
 respuesta_correcta = 0
 tiempo_restante = 25
 temporizador = None
